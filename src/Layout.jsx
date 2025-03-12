@@ -14,6 +14,7 @@ const Layout = () => {
 
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/QR-code" element={<HomePage />} />
 
         <Route path="/QR-code/generator" element={<QrCodeGenerator />} />
         <Route path="/QR-code/scanner" element={<QrCodeScanner />} />
