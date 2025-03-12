@@ -7,16 +7,16 @@ export const Navigation = () => {
       <Link className={style.link} to="/">
         Home
       </Link>
-      <Link className={style.link} to="/generator">
+      <Link className={style.link} to="/QR-code/generator">
         QR-code generator
       </Link>
-      <Link className={style.link} to="/scanner">
+      <Link className={style.link} to="/QR-code/scanner">
         QR-code scanner
       </Link>
-      <Link className={style.link} to="/generateHistory">
+      <Link className={style.link} to="/QR-code/generateHistory">
         Generate history
       </Link>
-      <Link className={style.link} to="/scanHistory">
+      <Link className={style.link} to="/QR-code/scanHistory">
         Scan history
       </Link>
     </nav>
