@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  background: wheat;
+  height: 100vh;
+}
+.container > h1 {
+  font-size: 80px;
+  text-align: center;
+}
+.container > h2 {
+  font-size: 40px;
+  max-width: 600px;
+  text-align: center;
+}

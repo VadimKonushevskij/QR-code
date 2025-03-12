@@ -1,0 +1,19 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgb(101, 129, 214);
+  padding: 50px;
+}
+
+.list li {
+  border: 3px solid black;
+  display: flex;
+  gap: 50px;
+  padding: 20px;
+  align-items: center;
+  font-size: 50px;
+}
+.list li a {
+  color: black;
+}
